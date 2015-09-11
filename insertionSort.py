@@ -13,3 +13,5 @@ for i in range (0,len(a)):
 		else:
 			break
 print a
+end = datetime.datetime.now()
+print "Time it took to generate and sort the list is " + str(end - start)+" microsecond(s)."
