@@ -3,7 +3,7 @@ start = datetime.datetime.now()
 import random
 list = []
 
-for x in range(0,100):
+for x in range(0,10000):
 	num = random.randint(0,10000)
 	list.append(num)
 for k in range (0,len(list)):
